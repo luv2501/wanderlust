@@ -69,10 +69,9 @@ cookie:{
   httpOnly:true,
 }
 };
-// app.get("/",(req,res)=>{
-//     res.send("i am root");
-// });
-
+app.get("/", (req, res) => {
+  res.redirect("/listings");
+});
 
 
 app.use(session(sessionOptions));
@@ -113,6 +112,8 @@ app.use((err, req, res, next) => {
  // res.status(statusCode).send(message);
  res.render("error.ejs",{message:err.message});
 });
-app.listen(8080,()=>{
-    console.log("server started at port 8080");
+const PORT = process.env.PORT || 8080;
+
+app.listen(PORT, () => {
+  console.log(`server started at port ${PORT}`);
 });
