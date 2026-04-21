@@ -45,14 +45,6 @@ Wanderlust is a full-stack web application that allows users to browse vacation 
 
 ---
 
-## 📸 Screenshots
-(Add screenshots here — VERY IMPORTANT)
-![Home](home.png)
-![Listings](listing.png)
-![Map](map.png)
-
----
-
 ## 🔮 Future Improvements
 - Payment Integration
 - Real-time booking system
