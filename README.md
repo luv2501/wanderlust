@@ -1,24 +1,64 @@
-# Wanderlust – Airbnb Clone
+# Wanderlust – Full Stack Airbnb Clone
 
-## Overview
-Wanderlust is a responsive Airbnb-inspired web application that allows users to explore property listings and simulate a booking experience.
+🚀 Full-stack travel accommodation platform inspired by Airbnb, enabling users to explore, list, and book properties with authentication and map integration.
 
-## Features
-- Browse property listings
-- Search and filtering functionality
-- Responsive design for different devices
+---
 
-## Tech Stack
-- HTML
-- CSS
-- JavaScript
+## 📌 Overview
+Wanderlust is a full-stack web application that allows users to browse vacation rentals, create listings, leave reviews, and explore locations using interactive maps.
 
-## My Contribution
-- Designed and developed the frontend UI
-- Implemented dynamic content rendering
-- Focused on user-friendly interface and responsiveness
+---
 
-## Future Improvements
-- Add user authentication
-- Integrate backend and database
-- Implement real booking system
+## ✨ Features
+- User Authentication (Login/Signup)
+- Create, Edit & Delete Listings (CRUD)
+- Property Images Upload (Cloudinary)
+- Search & Filter Listings
+- Reviews & Ratings System
+- Interactive Maps (Mapbox API)
+- Responsive UI
+
+---
+
+## 🛠 Tech Stack
+**Frontend:**
+- HTML, CSS, JavaScript, Bootstrap, EJS  
+
+**Backend:**
+- Node.js, Express.js  
+
+**Database:**
+- MongoDB Atlas  
+
+**Tools & APIs:**
+- Cloudinary (Image Storage)  
+- Mapbox (Maps & Location)  
+
+---
+
+## 👨‍💻 My Contribution
+- Designed and developed frontend UI
+- Implemented backend APIs and routing
+- Integrated MongoDB database
+- Built authentication system using Passport.js
+- Worked on full project structure (MVC architecture)
+
+---
+
+## 📸 Screenshots
+(Add screenshots here — VERY IMPORTANT)
+![Home](home.png)
+![Listings](listing.png)
+![Map](map.png)
+
+---
+
+## 🔮 Future Improvements
+- Payment Integration
+- Real-time booking system
+- Performance optimization
+
+---
+
+## 📎 Project Link
+https://github.com/luv2501/wanderlust
